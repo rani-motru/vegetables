@@ -16,7 +16,7 @@ class Index extends React.Component {
                         return (
                             <li>
                                 The {' '}
-                                <a href={`/fruits/${i}`}>
+                                <a href={`/fruits/${fruit._id}`}>
                                     {fruit.name}
                                 </a> {' '}
                                 is {fruit.color} <br></br>
