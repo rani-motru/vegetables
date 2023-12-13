@@ -8,6 +8,11 @@ class Show extends React.Component {
                 <h1>Show Page</h1>
                 <p>The {fruit.name} is {fruit.color}</p>
                 {fruit.readyToEat ? 'It is ready to eat' : "NOT READY!"}
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <a href={`/fruits`}> Go Back To Fruits</a>
             </div>
 
         )
